@@ -26,12 +26,12 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} /> {/* ✅ fixed lowercase */}
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <footer className="footer">
-        © {new Date().getFullYear()} Kunj Desai — Built with React
+        © {new Date().getFullYear()} Ronak Patel — Built with React
       </footer>
     </div>
   )

@@ -4,39 +4,50 @@ import "./Skills.css";
 
 const SKILLS = [
   { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "C", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-  { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-  { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+  { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+  { name: "Terraform", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" },
+  { name: "Jenkins", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+  { name: "Maven", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
   { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+  { name: "Ansible", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" },
+  { name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
   { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
-  { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
-  { name: "OpenCV", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
+  { name: "Linux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
+  { name: "RedHat", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" },
+  { name: "Ubuntu", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-original.svg" },
+  { name: "Aws", logo: "https://1000logos.net/wp-content/uploads/2025/03/Amazon-Web-Services-Logo.png" },
+  { name: "Kubernetes", logo:"https://logowik.com/content/uploads/images/kubernetes-icon1721066687.logowik.com.webp"},
+  { name: "Windows", logo: "https://logowik.com/content/uploads/images/windows-116906.jpg" },
+  { name: "Django", logo: "https://blueshelltech.com/media/2021/05/python-django-1024x576.jpg"}
 ];
 
 const ROWS = [
   [
-    { title: "Programming Languages", items: ["Python", "C", "C++", "Java"] },
-    { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React"] },
+    { title: "Cloud Services", items: ["Aws","Gcp"] },
+    { title: "DevOps Tools", items: ["Docker","Kubernetes","Jenkins","Terraform","Maven"] },
+    { title: "Containerization & Orchestration", items: ["Docker","Kubernetes"] },
+    { title: "Automation Tools", items: ["Ansible","Terraform"] },
+    { title: "CI/CD", items: ["Jenkins","Github"] },
+    { title: "Operating System", items: ["Windows","Linux(Redhat,Ubuntu)"] },
+    { title: "Programming Languages", items: ["Python","HTML", "CSS",] },
+    //{ title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React"] },
     { title: "Databases & Tools", items: ["MySQL", "MongoDB", "Git"] },
-    { title: "Frameworks & Libraries", items: ["TensorFlow", "PyTorch", "OpenCV"] },
+    { title: "Frameworks & Libraries", items: ["Django"] },
   ],
   [
-    {
-      title: "Core Concepts",
-      items: [
-        "Data Structures & Algorithms",
-        "Machine Learning",
-        "Deep Learning",
-        "YOLO Object Detection",
-        "Explainable AI (XAI)",
-      ],
-    },
+    // {
+    //   title: "CLOUD SERVICES",
+    //   items: [
+    //     "Data Structures & Algorithms",
+    //     "Machine Learning",
+    //     "Deep Learning",
+    //     "YOLO Object Detection",
+    //     "Explainable AI (XAI)",
+    //   ],
+    // },
     {
       title: "Soft Skills",
       items: ["Teamwork", "Problem Solving", "Creativity", "Adaptability", "Communication"],

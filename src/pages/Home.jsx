@@ -5,7 +5,7 @@ import '../index.css'
 
 
 // 🖼️ Import Assets
-import photo from '../../public/photo.jpg'
+import photo from '../../public/photo.png'
 import githubLogo from '../../public/github.png'
 import linkedinLogo from '../../public/linkedin.png'
 import gmailLogo from '../../public/gmail.png'
@@ -15,20 +15,25 @@ import facebookLogo from '../../public/facebook.png'
 
 export default function Home() {
   const professions = [
-    'AI Enthusiast',
-    'Machine Learning Engineer',
-    "Deep Learning Expert",
-    'Computer Vision Researcher',
-    'Developer',
+    'Aws Cloud',
+    'Devops Engineer',
+    // "Deep Learning Expert",
+    // 'Computer Vision Researcher',
+    // 'Developer',
   ]
 
   const quickLinks = [
-    { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
-    { img: gmailLogo, title: 'Email', link: 'mailto:kunjd2803@gmail.com' },
-    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918758209508' },
-    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
-    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/rk04121999' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/ronak-patel-0b36732a3/' },
+    // { img: gmailLogo, title: 'Email', link: 'mailto:ronakpatel41299@gmail.com' },
+    {
+  img: gmailLogo,
+  title: "Email",
+  link: "https://mail.google.com/mail/?view=cm&fs=1&to=ronakpatel41299@gmail.com"
+},
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+917698780393' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/_ronak_patel_04?igsh=MWRyMTZmeWt2ZmRkcg==' },
+    // { img: facebookLogo, title: 'Facebook', link: 'https://' },
   ]
 
   return (
@@ -62,7 +67,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="Kunj Desai"
+              alt="Ronak Patel"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
@@ -85,13 +90,13 @@ export default function Home() {
               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
               className="home-name"
             >
-              Kunj Desai
+              Ronak Patel
             </motion.span>
           </h1>
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Frontend Developer | Tech Explorer
+            AWS CLOUD | DEVOPS ENGINEER | TECH EXPLORER
           </p>
 
           {/* Profession Tags */}
@@ -106,9 +111,9 @@ export default function Home() {
           {/* Info Cards */}
           <motion.div className="info-cards">
             {[
-              { label: '📍 Location', value: 'Surat, Gujarat, India' },
-              { label: '💼 Expertise', value: 'AI/ML, Problem Solving' },
-              { label: '📧 Contact', value: 'kunjd2803@gmail.com' },
+              { label: '📍 Location', value: 'Ahmedabad, Gujarat, India' },
+              { label: '💼 Expertise', value: 'Cloud & Devops, Problem Solving' },
+              { label: '📧 Contact', value: 'ronakpatel41299@gmail.com' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>
@@ -120,29 +125,35 @@ export default function Home() {
       </div>
 
       {/* Bottom Quick Links */}
-      <motion.div className="quick-links">
-        <h2 className="quick-links-title">Connect with me</h2>
-        <div className="quick-links-list">
-          {quickLinks.map((item, i) => (
-            <motion.a
-              key={i}
-              href={item.link}
-              title={item.title}
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.15, rotate: 5 }}
-              transition={{ type: 'spring', stiffness: 250 }}
-            >
-              <motion.img
-                src={item.img}
-                alt={item.title}
-                whileHover={{ filter: 'drop-shadow(0 0 15px var(--accent)) brightness(1.2)' }}
-                className="quick-link-img"
-              />
-            </motion.a>
-          ))}
-        </div>
-      </motion.div>
+     <motion.div className="quick-links">
+  <h2 className="quick-links-title">Connect with me</h2>
+  <div className="quick-links-list">
+    {quickLinks.map((item, i) => (
+      <motion.a
+        key={i}
+        href={item.link}
+        title={item.title}
+        target={item.link.startsWith("mailto:") ? "_self" : "_blank"}
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.15, rotate: 5 }}
+        transition={{ type: "spring", stiffness: 250 }}
+      >
+        <motion.img
+          src={item.img}
+          alt={item.title}
+          whileHover={{
+            filter: "drop-shadow(0 0 15px var(--accent)) brightness(1.2)"
+          }}
+          className="quick-link-img"
+        />
+      </motion.a>
+    ))}
+  </div>
+</motion.div>
+
+
+
+
 
     </section>
   )

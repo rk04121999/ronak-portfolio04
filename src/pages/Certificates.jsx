@@ -5,49 +5,26 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "Flipkart Hackathon",
-      org: "Flipkart",
-      date: "2022",
-      img: "/certs/flipkart.jpg",
-      link: "/certs/flipkart.jpg",
-    },
-    {
-      title: "Solution Challenge",
-      org: "Google Developers",
-      date: "2023",
-      img: "/certs/hack2skill.png",
-      link: "/certs/hack2skill.png",
-    },
-    {
-      title: "ADira",
-      org: "SCET AI Club",
+      title: "Devops Boot Camp",
+      org: "Cloud & Devops Hub",
       date: "2025",
-      img: "/certs/adira.png",
-      link: "/certs/adira.png",
-    },
-  ],
-  other: [
-    {
-      title: "codathon",
-      org: "SCET tech fest",
-      date: "2025",
-      img: "/certs/codathon.png",
-      link: "/certs/codathon.png",
+      img: "/certs/DEVWRK.png",
+      link: "/certs/DEVWRK.png",
     },
     {
-      title: "bugbuzz",
-      org: "SCET tech fest",
-      date: "2025",
-      img: "/certs/bugbuzz.png",
-      link: "/certs/bugbuzz.png",
+      title: "Aws Devops & Agentic AI",
+      org: "Train With Subham",
+      date: "2025-26",
+      img: "/certs/devops ai.png",
+      link: "/certs/devops ai.png",
     },
-    {
-      title: "Dataloom",
-      org: "SCET",
-      date: "2024",
-      img: "/certs/dataloom.png",
-      link: "/certs/dataloom.png",
-    },
+    // {
+    //   title: "Dataloom",
+    //   org: "SCET",
+    //   date: "2024",
+    //   img: "/certs/dataloom.png",
+    //   link: "/certs/dataloom.png",
+    // },
   ],
 };
 
@@ -65,7 +42,7 @@ export default function Certificates() {
 
         {/* Tabs */}
         <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
-          {["tech", "other"].map((t) => (
+          {["tech"].map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
@@ -81,7 +58,7 @@ export default function Certificates() {
                 transition: "0.3s",
               }}
             >
-              {t === "tech" ? "Tech" : "Others"}
+              {t === "tech" ? "Tech": ""}
             </button>
           ))}
         </div>

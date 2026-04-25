@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 RONAK  M. PATEL
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              B.Tech — Cloud & Devops Engineer | K.I.R.C, Kalol
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 Ahemdabad, Gujarat
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ Ronakpatel41299@gamil.com | 📞 +91 7698780393
             </p>
           </div>
 
@@ -80,10 +80,7 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
-              Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+             I’m a passionate DevOps enthusiast with hands-on experience in building, automating, and deploying applications using modern tools. I have worked with technologies like Docker, Kubernetes, Jenkins, and cloud platforms to streamline development workflows and improve system reliability. I enjoy solving real-world problems through automation and continuously learning new DevOps practices to enhance efficiency and scalability.
             </p>
           </motion.div>
         </motion.div>
@@ -106,24 +103,24 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>B.Tech in Information Technology</strong> — K.I.R.C (GTU)
+               2017–2021 <br />
+              <span style={{ color: "#aaa" }}>GPA: 8.49</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
+              <strong>12th Board — G.S.E.B  Swastik Higher Secondry School</strong> (Gujarat
+              Board, 2017) <br />
               <span style={{ color: "#aaa" }}>Percentage: 78%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — Swastik High School</strong> (Gujarat Board, 2015)
               <br />
-              <span style={{ color: "#aaa" }}>Percentage: 85%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 84%</span>
             </li>
           </ul>
         </motion.div>
 
-        {/* Projects */}
+        {/* Projects
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -137,7 +134,7 @@ export default function Resume() {
             <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
             <li>4️⃣ Mental Health Analyzer</li>
           </ul>
-        </motion.div>
+        </motion.div> */}
 
         {/* Skills */}
         <motion.div
@@ -149,22 +146,23 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              "Python",
-              "C",
-              "C++",
-              "Java",
-              "TensorFlow",
-              "PyTorch",
-              "Scikit-learn",
-              "OpenCV",
-              "YOLO",
-              "Streamlit",
-              "React",
+              "Aws Cloud",
+              "RedHat Linux",
+              "Ansible Automation",
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "Jenkins",
+              "Maven",
+              "GitHub",
+              "Python(Django)",
+              "Html",
+              "Css",
               "MySQL",
               "MongoDB",
               "Git",
               "NLP",
-              "Explainable AI (XAI)",
+              "Quick Learner",
               "Problem Solving",
               "Teamwork",
               "Adaptability",
@@ -198,9 +196,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            // { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
+            { name: "💻 GitHub", link: "https://github.com/rk04121999" },
+            // { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -233,8 +231,8 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/resume.pdf"
-            title="Kunj Desai Resume"
+            src="/RonakCV C&D..pdf"
+            title="Ronak Patel Resume"
             style={{
               width: "100%",
               height: "650px",
@@ -246,7 +244,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/resume.pdf"
+          href="/RonakCV C&D..pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

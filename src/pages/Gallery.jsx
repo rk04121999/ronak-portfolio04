@@ -115,7 +115,7 @@ export default function Gallery() {
 
       {/* 🧭 Tabs */}
       <motion.div className="tab-buttons" variants={childVariants}>
-        {["personal", "projects", "achievements"].map((type) => (
+        {[ "projects", "achievements"].map((type) => (
           <motion.button
             key={type}
             className={`tab ${tab === type ? "active" : ""}`}

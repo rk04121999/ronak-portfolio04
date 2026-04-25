@@ -1,6 +1,6 @@
-# 💻 Kunj Desai — Portfolio Website
+# 💻 Ronak-Patel — Portfolio Website
 Welcome to my personal portfolio website built with **React.js**, **Framer Motion**, and **modern UI design** principles.
-It showcases my work, projects, skills, and journey as a developer passionate about **AI, ML, and Web Technologies**.
+It showcases my work, projects, skills, and journey as a developer passionate about **Cloud & Devops Engineer**.
 
 🌐 **Website:** [[[kunj-Portfolio]]](https://kunj-desai.vercel.app/)
 
@@ -28,7 +28,7 @@ It showcases my work, projects, skills, and journey as a developer passionate ab
 | **Frontend**        | React.js, HTML5, CSS3, JavaScript (ES6+) |
 | **Styling**         | Tailwind CSS / Custom CSS                |
 | **Animation**       | Framer Motion                            |
-| **Contact Form**    | EmailJS                                  |
+| **Contact Form**    | EmailJS   (option)                               |
 | **Version Control** | Git & GitHub                             |
 | **Deployment**      | Vercel / Netlify                         |
 
@@ -43,7 +43,7 @@ To run this project locally:
 git clone https://github.com/kunj2803/kunjdesai-portfolio.git
 
 # 2️⃣ Navigate to project directory
-cd kunjdesai-portfolio
+cd Ronak-Portfolio
 
 # 3️⃣ Install dependencies
 npm install
@@ -60,8 +60,8 @@ Now open [http://localhost:3000](http://localhost:3000) in your browser 🚀
 
 If you’d like to collaborate or just say hi 👋, feel free to reach out!
 
-* 📧 **Email:** [kunjd2803@gmail.com](mailto:kunjd2803@gmail.com)
-* 💼 **LinkedIn:** [linkedin.com/in/kunj-desai-07717b293](https://www.linkedin.com/in/kunj-desai-07717b293/)
+* 📧 **Email:** [ronakpatel41299@gmail.com](mailto:ronakpatel41299@gmail.com)
+* 💼 **LinkedIn:** [linkedin.com/in/ronak-patel-0b36732a3](https://www.linkedin.com/in/ronak-patel-0b36732a3/)
 
 ---
 
